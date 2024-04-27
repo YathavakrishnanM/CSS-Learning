@@ -1,0 +1,187 @@
+body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background{
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 340px;
+    box-sizing: border-box;
+    
+}
+
+.inner-background{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(to right,#e4e9f4,#5B7596);
+    align-items: center;
+}
+.inside-common-div{
+    width: 100%;
+    height: 50%;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.left-side{
+    height:280px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+.right-side{
+    height: 300px;
+    width: 300px;
+    background-color: #17355e;
+    overflow: hidden;
+    padding: 2%;
+    box-shadow: 0 0 40px 16px rgba(0, 0, 0, 0.22);
+    padding-left: 2%;
+}
+.content1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b347b;
+    margin: 2.5rem 0 0 0;
+    font-family: "Roboto", sans-serif;
+}
+.content2{
+    font-size: 1.55rem;
+    color: #2b347b;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.content3{
+    color: #999;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.content4{
+    color: #767569;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+.content5{
+    color: #767569;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    padding-left: 8%;
+}
+
+.email-label{
+    color: #bababa;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+
+}
+.input-email{
+    border:  2px solid #767569;
+    background-color: transparent;
+    height: 40px;
+    width: 85%;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+.input-email::placeholder{
+    padding-left: 10px;
+}
+
+
+.password-label{
+    color: #bababa;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.signin-button{
+    width: 85%;
+    background: transparent;
+    text-align: center;
+    font-size: 14px;
+    color: #767569;
+    height: 40px;
+    border-radius: 0.25rem;
+    border: 2px solid #767569;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;     
+}
+.signin-button:hover{
+    background-color: #bababa;
+    cursor: pointer;
+   
+}
+
+.forget{
+    color: #767569;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.signin-microsoft{
+    height: 40px;
+    margin-top: 1rem;
+    width: 85%;
+    background-color: transparent;
+    border: 2px solid white;
+    align-items: center;
+    font-family:"Roboto", sans-serif ;
+    font-size: 14px;
+    color: white;
+    border-radius: 0.25rem;
+}
+
+.signin-microsoft img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    
+}
+
+@media only screen and (max-width:700px){
+    
+    .inside-common-div{
+        width: 100%;
+        height: 100%;
+        display:inline;
+        margin-top: 10%;    
+        align-items: center;
+
+    }
+
+    .left-side{
+       margin-left: 6%;
+        height: 240px;
+    }
+    .right-side{
+        margin-left: 4%;
+        height: 320px;
+    }
+    .content1{
+        
+        margin-top: 2.5rem;
+        
+    }
+}
+
