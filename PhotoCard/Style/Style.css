@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    border: 0;
+    height: 100vh;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1050px;
+}
+.submain{
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.submain h1{
+    font-size: 40px;
+}
+
+.inside-div{
+    height: auto;
+    width: 100%;
+    box-shadow: 2px 2px 5px 5px #888888;
+}
+
+.submain img{
+    width: 100%;
+    height: 70%;
+}
+
+.content{
+    font-size: 32px;
+    height: 13%;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
